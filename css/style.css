@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Jura;
+    src: url('../fonts/Jura-Bold.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Italic.ttf');
+}
+:root {
+    --mainColor: #7248CE;
+    --secondColor: #3F3F3F
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+}
+.main {
+    margin-top: 40px;
+    width: 1232px;
+    height: 876px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+}
+#logo {
+    margin-top: 50px;
+    font-weight: 1000;
+    font-size: 36.89px;
+    font-family: Jura, sans-serif;
+    color: var(--secondColor);
+    margin-left: 100px;
+    position: absolute;
+}
+.ch_ {
+    position: absolute;
+    margin-left: 160px;
+}
+#ch-2 {
+    margin-left: 250px;
+    margin-top: -35px;
+}
+h1 {
+    margin-top: 200px;
+    color: var(--secondColor);
+    font-weight: 700;
+    font-size: 65.57px;
+    font-family: Poppins, sans-serif;
+    line-height: 71.7px;
+    margin-left: 20px;
+}
+h2 {
+    font-family: Poppins;
+    color: var(--secondColor);
+    font-size: 16.39px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+button {
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 10px;
+    width: 187px;
+    height: 55px;
+    text-transform: capitalize;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16.39px;
+    margin-left: 20px;
+}
+img {
+    height: 750px;
+    position: absolute;
+    margin-left: 240px;
+    border-radius: 20px;
+    margin-top: -540px;
+}
+#icons {
+    display: flex;
+    position: absolute;
+    font-display: flex;
+    gap: 50px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
